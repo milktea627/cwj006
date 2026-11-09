@@ -3,7 +3,7 @@
 一个介绍猫的静态网站：**6 个页面**（1 个首页 + 5 个分页面），
 纯手写 HTML + CSS + JavaScript，无框架、无构建、无第三方依赖，双击 `index.html` 即可打开。
 
-在线地址：<https://milktea627.github.io/miao213/>
+在线地址：<https://milktea627.github.io/cwj006/>
 
 ---
 
@@ -19,7 +19,7 @@
 | `web/message.html` | 喵一声 · 小猫百科 | 留言板，本地存储，可删除 |
 
 ```
-miao213/                  ← 主文件夹（按要求改为 姓名首字母+学号后三位）
+cwj006/                   ← 主文件夹（按要求改为 姓名首字母+学号后三位）
 ├── index.html            首页（必须放在主文件夹下）
 ├── image/                14 个原创 SVG 插画
 │   ├── logo.svg          爪印标志
@@ -50,7 +50,7 @@ miao213/                  ← 主文件夹（按要求改为 姓名首字母+学
 ## 三、修改后如何更新线上
 
 ```bash
-cd miao213
+cd cwj006
 git add -A
 git commit -m "更新内容"
 git push
