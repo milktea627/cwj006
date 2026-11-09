@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="窗台晒太阳的猫">
+<defs><linearGradient id="s1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6ef"/><stop offset="1" stop-color="#f8e8cd"/></linearGradient></defs>
+<rect width="640" height="480" fill="#fdf1e0"/>
+<rect x="96" y="46" width="440" height="300" rx="8" fill="#a87c50"/>
+<rect x="108" y="58" width="416" height="276" fill="url(#s1)"/>
+<circle cx="430" cy="130" r="40" fill="#fff3cf"/>
+<circle cx="430" cy="130" r="62" fill="#fff3cf" opacity=".35"/>
+<g fill="#fff" opacity=".6"><ellipse cx="220" cy="140" rx="56" ry="18"/><ellipse cx="272" cy="150" rx="34" ry="12"/></g>
+<g stroke="#a87c50" stroke-width="9"><path d="M316 58v276"/><path d="M108 190h416"/></g>
+<rect x="84" y="338" width="476" height="18" rx="6" fill="#c39a6b"/>
+<rect x="66" y="352" width="512" height="12" fill="#b98757" opacity=".6"/>
+<ellipse cx="320" cy="392" rx="180" ry="40" fill="#ffe9bd" opacity=".85"/>
+<ellipse cx="330" cy="392" rx="126" ry="40" fill="#d9a468"/>
+<path d="M430 372c46-4 62 20 46 34" stroke="#d9a468" stroke-width="20" fill="none" stroke-linecap="round"/>
+<g transform="translate(137.0 295.0) scale(0.5)">
+<path d="M72 134L92 50l56 46z" fill="#d9a468"/>
+<path d="M228 134L208 50l-56 46z" fill="#d9a468"/>
+<path d="M92 120l8-44 30 26z" fill="#e8a9a0"/>
+<path d="M208 120l-8-44-30 26z" fill="#e8a9a0"/>
+<path d="M150 82c48 0 86 36 86 84 0 52-38 88-86 88s-86-36-86-88c0-48 38-84 86-84z" fill="#d9a468"/>
+<ellipse cx="150" cy="214" rx="44" ry="30" fill="#d9a468"/>
+<path d="M150 198l-10-8h20z" fill="#d98b8b"/>
+<path d="M150 200v6" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 206c-6 9-16 9-21 1" stroke="#2b2622" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M150 206c6 9 16 9 21 1" stroke="#2b2622" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="112" cy="160" rx="17" ry="19" fill="#8fb356"/>
+<ellipse cx="112" cy="160" rx="5" ry="17" fill="#2b2622"/>
+<circle cx="107" cy="153" r="4" fill="#fff" opacity=".9"/>
+<path d="M94 140q16-10 34-2" stroke="#2b2622" stroke-width="3.4" fill="none" opacity=".5" stroke-linecap="round"/>
+<ellipse cx="188" cy="160" rx="17" ry="19" fill="#8fb356"/>
+<ellipse cx="188" cy="160" rx="5" ry="17" fill="#2b2622"/>
+<circle cx="183" cy="153" r="4" fill="#fff" opacity=".9"/>
+<path d="M170 140q16-10 34-2" stroke="#2b2622" stroke-width="3.4" fill="none" opacity=".5" stroke-linecap="round"/>
+<g stroke="#a9743f" stroke-width="7" stroke-linecap="round" fill="none" opacity=".85"><path d="M150 96v22"/><path d="M126 100l-6 22"/><path d="M174 100l6 22"/><path d="M92 150h18"/><path d="M208 150h-18"/></g>
+<g stroke="#2b2622" stroke-width="2.4" stroke-linecap="round" opacity=".55"><path d="M104 208l-40-10"/><path d="M104 216l-42 4"/><path d="M104 224l-36 18"/><path d="M196 208l40-10"/><path d="M196 216l42 4"/><path d="M196 224l36 18"/></g>
+</g>
+<ellipse cx="252" cy="408" rx="26" ry="9" fill="#d9a468"/>
+<g transform="translate(560 400)">
+<path d="M-24 0h48l-6 40h-36z" fill="#c9633f"/>
+<g fill="#5d8a63"><ellipse cx="-12" cy="-14" rx="16" ry="10" transform="rotate(-30 -12 -14)"/><ellipse cx="13" cy="-16" rx="16" ry="10" transform="rotate(26 13 -16)"/><ellipse cx="0" cy="-32" rx="14" ry="10"/></g>
+</g>
+</svg>

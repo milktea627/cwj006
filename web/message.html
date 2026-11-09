@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js");</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>喵一声 · 喵呜百科</title>
+<meta name="description" content="留下你家猫的名字，或者一句想说的话。">
+<link rel="icon" href="../image/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="hd">
+  <div class="wrap hd-in">
+    <a class="logo" href="../index.html">
+      <img src="../image/logo.svg" alt="爪印标志">
+      <span>小猫百科<small></small></span>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="展开菜单">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="../index.html">首页</a></li>
+      <li><a href="breeds.html">品种图鉴</a></li>
+      <li><a href="behavior.html">行为语言</a></li>
+      <li><a href="care.html">养护指南</a></li>
+      <li><a href="gallery.html">猫的相册</a></li>
+      <li><a href="message.html" aria-current="page">喵一声</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-top">
+    <div class="wrap">
+      <p class="crumb"><a href="../index.html">首页</a> / 喵一声</p>
+      <h1>喵一声</h1>
+      <p class="sub">
+        写下你家猫的名字、一个小习惯，或者一句想对猫说的话
+      </p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap" style="max-width:760px">
+
+      <form class="note-form rv" id="noteForm" novalidate>
+        <div class="field">
+          <label for="who">你的称呼</label>
+          <input id="who" name="name" type="text" maxlength="20" placeholder="例如：三号楼的花猫" autocomplete="nickname">
+        </div>
+        <div class="field">
+          <label for="what">想说的话</label>
+          <textarea id="what" name="text" maxlength="300" placeholder="我家那只叫年糕，每天早上六点准时踩我的脸……"></textarea>
+        </div>
+        <p class="hint" id="hint"></p>
+        <div>
+          <button class="btn btn-fill" type="submit">贴上去</button>
+        </div>
+      </form>
+
+      <ul class="notes rv" id="noteList" aria-live="polite">
+        <li class="empty"></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap grid g2 rv">
+      <div class="card">
+        <div class="card-b">
+          <span class="pill">可以写什么</span>
+          <h3>say anything!</h3>
+          <p>猫的名字、它的怪癖、你想问的养护问题，或者只是路过打个招呼，注意维持友好的交流环境</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-b">
+          <span class="pill"></span>
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <h4>喵呜百科</h4>
+        <p style="margin:0;max-width:34ch">一个关于猫的小站，内容整理自日常观察与公开资料，用于课程网页作业。</p>
+      </div>
+      <div>
+        <h4>章节</h4>
+        <ul>
+          <li><a href="../index.html">首页</a></li>
+          <li><a href="breeds.html">品种图鉴</a></li>
+          <li><a href="behavior.html">行为语言</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>更多</h4>
+        <ul>
+          <li><a href="care.html">养护指南</a></li>
+          <li><a href="gallery.html">猫的相册</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bar">
+      <span>© <span data-year>2026</span> 喵呜百科 · 课程作业作品，非商业用途</span>
+      <span>手写 HTML / CSS / JavaScript，插画为原创 SVG</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

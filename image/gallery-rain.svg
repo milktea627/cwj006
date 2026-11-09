@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="雨天窗边的猫">
+<defs><linearGradient id="r1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa6b4"/><stop offset="1" stop-color="#b9c9cf"/></linearGradient></defs>
+<rect width="640" height="480" fill="#e8ddd0"/>
+<rect x="110" y="40" width="420" height="330" rx="6" fill="#7d6a58"/>
+<rect x="122" y="52" width="396" height="306" fill="url(#r1)"/>
+<g stroke="#eef3f5" stroke-width="3" opacity=".75" stroke-linecap="round">
+<path d="M140 62l-8 40"/><path d="M130 130l-8 40"/><path d="M138 200l-8 40"/><path d="M128 268l-8 40"/>
+<path d="M174 62l-8 40"/><path d="M164 130l-8 40"/><path d="M172 200l-8 40"/><path d="M162 268l-8 40"/>
+<path d="M208 62l-8 40"/><path d="M198 130l-8 40"/><path d="M206 200l-8 40"/><path d="M196 268l-8 40"/>
+<path d="M242 62l-8 40"/><path d="M232 130l-8 40"/><path d="M240 200l-8 40"/><path d="M230 268l-8 40"/>
+<path d="M276 62l-8 40"/><path d="M266 130l-8 40"/><path d="M274 200l-8 40"/><path d="M264 268l-8 40"/>
+<path d="M310 62l-8 40"/><path d="M300 130l-8 40"/><path d="M308 200l-8 40"/><path d="M298 268l-8 40"/>
+<path d="M344 62l-8 40"/><path d="M334 130l-8 40"/><path d="M342 200l-8 40"/><path d="M332 268l-8 40"/>
+<path d="M378 62l-8 40"/><path d="M368 130l-8 40"/><path d="M376 200l-8 40"/><path d="M366 268l-8 40"/>
+<path d="M412 62l-8 40"/><path d="M402 130l-8 40"/><path d="M410 200l-8 40"/><path d="M400 268l-8 40"/>
+<path d="M446 62l-8 40"/><path d="M436 130l-8 40"/><path d="M444 200l-8 40"/><path d="M434 268l-8 40"/>
+<path d="M480 62l-8 40"/><path d="M470 130l-8 40"/><path d="M478 200l-8 40"/><path d="M468 268l-8 40"/>
+<path d="M514 62l-8 40"/><path d="M504 130l-8 40"/><path d="M512 200l-8 40"/><path d="M502 268l-8 40"/>
+</g>
+<g fill="#c9d9de" opacity=".8"><ellipse cx="220" cy="300" rx="120" ry="26"/></g>
+<g stroke="#7d6a58" stroke-width="8"><path d="M320 52v306"/><path d="M122 206h396"/></g>
+<rect x="96" y="366" width="448" height="16" rx="6" fill="#a8896c"/>
+<g transform="translate(320 366) scale(0.8)">
+<path d="M56 -8c74 2 94 34 60 48" stroke="#4a423d" stroke-width="26" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="-98" rx="78" ry="100" fill="#4a423d"/>
+<ellipse cx="0" cy="-84" rx="48" ry="72" fill="#5a514b" opacity=".55"/>
+<ellipse cx="-36" cy="-8" rx="24" ry="11" fill="#5a514b"/>
+<ellipse cx="36" cy="-8" rx="24" ry="11" fill="#5a514b"/>
+</g>
+<g transform="translate(221.6 89.67999999999998) scale(0.656)">
+<path d="M72 134L92 50l56 46z" fill="#4a423d"/>
+<path d="M228 134L208 50l-56 46z" fill="#4a423d"/>
+<path d="M92 120l8-44 30 26z" fill="#e8a9a0"/>
+<path d="M208 120l-8-44-30 26z" fill="#e8a9a0"/>
+<path d="M150 82c48 0 86 36 86 84 0 52-38 88-86 88s-86-36-86-88c0-48 38-84 86-84z" fill="#4a423d"/>
+<ellipse cx="150" cy="214" rx="44" ry="30" fill="#5a514b"/>
+<path d="M150 198l-10-8h20z" fill="#d98b8b"/>
+<path d="M150 200v6" stroke="#2b2622" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 206c-6 9-16 9-21 1" stroke="#2b2622" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M150 206c6 9 16 9 21 1" stroke="#2b2622" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="112" cy="160" rx="17" ry="19" fill="#f0b429"/>
+<circle cx="112" cy="160" r="9" fill="#2b2622"/>
+<circle cx="107" cy="153" r="4" fill="#fff" opacity=".9"/>
+<path d="M94 140q16-10 34-2" stroke="#2b2622" stroke-width="3.4" fill="none" opacity=".5" stroke-linecap="round"/>
+<ellipse cx="188" cy="160" rx="17" ry="19" fill="#f0b429"/>
+<circle cx="188" cy="160" r="9" fill="#2b2622"/>
+<circle cx="183" cy="153" r="4" fill="#fff" opacity=".9"/>
+<path d="M170 140q16-10 34-2" stroke="#2b2622" stroke-width="3.4" fill="none" opacity=".5" stroke-linecap="round"/>
+<g stroke="#2b2622" stroke-width="2.4" stroke-linecap="round" opacity=".55"><path d="M104 208l-40-10"/><path d="M104 216l-42 4"/><path d="M104 224l-36 18"/><path d="M196 208l40-10"/><path d="M196 216l42 4"/><path d="M196 224l36 18"/></g>
+</g>
+<rect x="500" y="320" width="44" height="46" rx="8" fill="#f7f3ea"/>
+<path d="M544 330c12 0 12 22 0 22" stroke="#f7f3ea" stroke-width="6" fill="none"/>
+<path d="M512 310c6-8 0-12 6-20" stroke="#d8cfc2" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

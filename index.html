@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js");</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于小猫的网站</title>
+<meta name="description" content="猫的品种图鉴、行为语言、养护指南与相册">
+<link rel="icon" href="image/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="web/style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="hd">
+  <div class="wrap hd-in">
+    <a class="logo" href="index.html">
+      <img src="image/logo.svg" alt="爪印标志">
+      <span>小猫百科<small></small></span>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="展开菜单">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="index.html" aria-current="page">首页</a></li>
+      <li><a href="web/breeds.html">品种图鉴</a></li>
+      <li><a href="web/behavior.html">行为语言</a></li>
+      <li><a href="web/care.html">养护指南</a></li>
+      <li><a href="web/gallery.html">猫的相册</a></li>
+      <li><a href="web/message.html">喵一声</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= 首屏 ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker"></span>
+        <h1>猫的小巧思<br></h1>
+        <p class="lede">
+          它在你腿上踩奶，是把自己当成了幼猫；它把尾巴竖成问号，是在说“见到你很高兴”。
+          
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-fill" href="web/breeds.html">先看品种 →</a>
+          <a class="btn btn-line" href="web/behavior.html">读懂它的动作</a>
+        </div>
+      </div>
+      <figure class="art">
+        <img src="image/hero.svg" width="1200" height="620" alt="插画：阳光下的客厅里，一只橘色虎斑猫坐在地毯上，旁边是毛线球和猫窝">
+        <figcaption class="art-cap">它的一天，有十六个小时在睡</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= 滚动条 ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <div class="ticker-set">
+        <span>猫的胡须左右各约 12 根</span><span>成年猫每天睡 12–16 小时</span>
+        <span>呼噜频率 25–150 Hz</span><span>猫能发出上百种声音</span>
+        <span>家猫的祖先来自非洲野猫</span><span>猫鼻纹像指纹一样独一无二</span>
+      </div>
+      <div class="ticker-set">
+        <span>猫的胡须左右各约 12 根</span><span>成年猫每天睡 12–16 小时</span>
+        <span>呼噜频率 25–150 Hz</span><span>猫能发出上百种声音</span>
+        <span>家猫的祖先来自非洲野猫</span><span>猫鼻纹像指纹一样独一无二</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= 数字 ================= -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-hd rv">
+        <div>
+          <span class="num">01 — 一些数字</span>
+          <h2>关于猫，先记住这四个数</h2>
+        </div>
+      </div>
+      <div class="stats rv">
+        <div class="stat"><b data-num="16">16</b><span>每天睡眠小时数</span></div>
+        <div class="stat"><b data-num="24">24</b><span>根胡须，左右各 12</span></div>
+        <div class="stat"><b data-num="70">70</b><span>被承认的品种数量级</span></div>
+        <div class="stat"><b data-num="10000">10000</b><span>与人类共同生活的年数</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 入口 ================= -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-hd rv">
+        <div>
+          <span class="num">02 — 五个章节</span>
+          <h2>从哪里开始看</h2>
+          <p>每一页都可以随时回到这里，像猫一样，逛到哪儿算哪儿。</p>
+        </div>
+      </div>
+      <div class="grid g3 rv">
+        <a class="entry" href="web/breeds.html">
+          <span class="no">01</span>
+          <span class="t">品种图鉴</span>
+          <span class="d">狸花、英短、布偶、暹罗、橘猫、黑猫，六种常见长相与性格。</span>
+          <span class="go">进去看看 →</span>
+        </a>
+        <a class="entry" href="web/behavior.html">
+          <span class="no">02</span>
+          <span class="t">行为语言</span>
+          <span class="d">尾巴、耳朵、呼噜、踩奶、蹭头——它在用身体说话。</span>
+          <span class="go">学会翻译 →</span>
+        </a>
+        <a class="entry" href="web/care.html">
+          <span class="no">03</span>
+          <span class="t">养护指南</span>
+          <span class="d">吃、喝、拉、睡，以及那些绝对不能给它吃的东西。</span>
+          <span class="go">照顾它 →</span>
+        </a>
+        <a class="entry" href="web/gallery.html">
+          <span class="no">04</span>
+          <span class="t">猫的相册</span>
+          <span class="d">窗台、纸箱、键盘、雨天，五张关于猫的插画</span>
+          <span class="go">翻相册 →</span>
+        </a>
+        <a class="entry" href="web/message.html">
+          <span class="no">05</span>
+          <span class="t">喵一声</span>
+          <span class="d">留下你家猫的名字，或者一句想说的话。</span>
+          <span class="go">去留言 →</span>
+        </a>
+        <a class="entry" href="#main">
+          <span class="no">00</span>
+          <span class="t">回到顶部</span>
+          <span class="d">从头再逛一遍。</span>
+          <span class="go">上去 ↑</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 品种预览 ================= -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-hd rv">
+        <div>
+          <span class="num">03 — 长相</span>
+          <h2>六种常见小猫</h2>
+        
+        </div>
+        <a class="link-more" href="web/breeds.html">全部品种 →</a>
+      </div>
+      <div class="grid g3 rv">
+        <article class="card">
+          <div class="thumb"><img src="image/breed-1.svg" alt="狸花猫的卡通头像" width="300" height="300"></div>
+          <div class="card-b">
+            <span class="pill">中华田园猫</span>
+            <h3>狸花</h3>
+            <p>黄褐虎斑</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="image/breed-2.svg" alt="英国短毛猫的卡通头像" width="300" height="300"></div>
+          <div class="card-b">
+            <span class="pill">英短</span>
+            <h3>蓝猫</h3>
+            <p>圆脸圆眼铜色瞳</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><img src="image/breed-5.svg" alt="橘猫的卡通头像" width="300" height="300"></div>
+          <div class="card-b">
+            <span class="pill">橘猫</span>
+            <h3>橘</h3>
+            <p>大橘为重</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 行为预览 ================= -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-hd rv">
+        <div>
+          <span class="num">04 — 动作</span>
+          <h2>它其实一直在跟你说话</h2>
+        </div>
+        <a class="link-more" href="web/behavior.html">完整行为词典 →</a>
+      </div>
+      <div class="grid rv" style="grid-template-columns:1fr">
+        <div class="behavior">
+          <div class="han">尾</div>
+          <div>
+            <h3>尾巴竖直</h3>
+            <p>尾尖微弯——这是猫最友好的招呼</p>
+            <p class="say">翻译：见到你真好</p>
+          </div>
+        </div>
+        <div class="behavior">
+          <div class="han">呼</div>
+          <div>
+            <h3>在你腿上发出呼噜声</h3>
+            <p>沉稳的睡觉</p>
+            <p class="say">翻译：我现在还好，但请别突然起身。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 养护提示 ================= -->
+  <section class="sec">
+    <div class="wrap grid g2 rv" style="align-items:start">
+      <div>
+        <div class="sec-hd" style="margin-bottom:20px">
+          <div>
+            <span class="num">05 — 照顾</span>
+            <h2 style="font-size:1.5rem">三件每天要做的事</h2>
+          </div>
+        </div>
+        <ul class="check">
+          <li><div><b>换水</b><span>每天洗净水碗换新水</span></div></li>
+          <li><div><b>清猫砂</b><span>一天一次，猫会因为厕所脏而憋尿</span></div></li>
+          <li><div><b>陪玩十分钟</b><span>用逗猫棒让它真的跑起来</span></div></li>
+        </ul>
+      </div>
+      <div>
+        <div class="sec-hd" style="margin-bottom:20px">
+          <div>
+            <span class="num">06 — 底线</span>
+            <h2 style="font-size:1.5rem">这些东西不能给它吃</h2>
+          </div>
+        </div>
+        <ul class="warn">
+          <li><div><b>葱蒜类</b>会破坏红细胞</div></li>
+          <li><div><b>巧克力与咖啡</b>可可碱和咖啡因对猫是毒</div></li>
+          <li><div><b>葡萄与葡萄干</b>可能引发急性肾损伤</div></li>
+          <li><div><b>生鱼与生鸡蛋</b>细菌与生物素缺乏</div></li>
+        </ul>
+        <a class="btn btn-line" href="web/care.html" style="margin-top:18px">完整的养护清单</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 结尾 ================= -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="rv" style="background:var(--cream-2);border:1px solid var(--line);border-radius:var(--r);padding:38px;text-align:center">
+        <h2 style="margin-bottom:10px">你家的猫叫什么名字？</h2>
+        <p style="color:var(--ink-2);margin-bottom:20px">去留言板写下来吧，我们会把它留在墙上。</p>
+        <a class="btn btn-fill" href="web/message.html">喵一声</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <h4>小猫百科</h4>
+        <p style="margin:0;max-width:34ch">一个关于猫的小站，内容整理自日常观察与公开资料</p>
+      </div>
+      <div>
+        <h4>章节</h4>
+        <ul>
+          <li><a href="web/breeds.html">品种图鉴</a></li>
+          <li><a href="web/behavior.html">行为语言</a></li>
+          <li><a href="web/care.html">养护指南</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>更多</h4>
+        <ul>
+          <li><a href="web/gallery.html">猫的相册</a></li>
+          <li><a href="web/message.html">喵一声</a></li>
+          <li><a href="index.html">回到首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bar">
+      <span>© <span data-year>2026</span> 小猫百科</span>
+      
+    </div>
+  </div>
+</footer>
+
+<script src="web/script.js"></script>
+</body>
+</html>
